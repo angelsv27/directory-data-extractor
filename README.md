@@ -1,2 +1,71 @@
-# directory-data-extractor
-A custom web scraping tool that extracts dealer information from an online directory, filtering only listings with email addresses. The script collects key fields such as name, address, phone, and email, then cleans and structures the data into CSV/Excel format for CRM integration or outreach workflows.
+# 🚀 Henry USA Dealer Scraper
+
+A Python scraper that extracts dealer listings from the Henry USA directory and returns **only dealers with valid email addresses**.
+
+---
+
+## 🎯 Goal
+
+Scrape the official Henry USA dealer directory:
+
+🔗 https://www.henryusa.com/own-a-henry/find-a-henry-dealer/
+
+Then **filter out all entries that do not include an email address**.
+
+---
+
+## 📊 Extracted Fields
+
+- Dealer Name  
+- Address  
+- Phone  
+- **Email (required filter)**  
+- Website (if available)
+
+---
+
+## ⚙️ Features
+
+- Parses unstructured HTML into clean structured data  
+- Filters out non‑contactable dealers  
+- Normalizes phone, email, and address formats  
+- Exports results to Excel and CSV  
+
+---
+
+## 🔄 Pipeline
+
+---
+
+## 📦 Output Files
+
+- `dealers_with_email.xlsx`  
+- `dealers_with_email.csv`  
+
+Only **verified, contactable** dealers are included.
+
+---
+
+## 💡 Business Use Cases
+
+- Lead generation  
+- B2B outreach lists  
+- Market research  
+- Dealer network mapping  
+
+---
+
+## 📸 Demo
+
+- Screenshot of the Henry USA dealer page
+![Image Alt](https://github.com/angelsv27/directory-data-extractor/blob/934e86a3cf8066656348ff2ed528cf87d96c5f7e/assets/Dealers_in%20Alabama-Henry%20USA.JPG)
+- Screenshot of the Excel output  
+![Image Alt](https://github.com/angelsv27/directory-data-extractor/blob/934e86a3cf8066656348ff2ed528cf87d96c5f7e/assets/Specific_list_of%20Dealer%20Contacts%20US.JPG)
+---
+
+## 🧠 Tech Stack
+
+- Python  
+- BeautifulSoup / Scrapy  
+- Pandas  
+
