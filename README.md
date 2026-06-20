@@ -35,6 +35,8 @@ Then **filter out all entries that do not include an email address**.
 
 ## 🔄 Pipeline
 
+- URL → Request → Parse HTML → Extract Data → Filter (email only) → Export
+ 
 ---
 
 ## 📦 Output Files
