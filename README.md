@@ -39,15 +39,6 @@ URL → Request → Parse HTML → Extract Data → Filter (email only) → Expo
  
 ---
 
-## 📦 Output Files
-
-- `dealers_with_email.xlsx`  
-- `dealers_with_email.csv`  
-
-Only **verified, contactable** dealers are included.
-
----
-
 ## 💡 Business Use Cases
 
 - Lead generation  
